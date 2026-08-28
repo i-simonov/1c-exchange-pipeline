@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗаполнитьПоМетаданным" id="4">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗаполнитьПоМетаданным</CommandName>
+				<ExtendedTooltip name="ФормаЗаполнитьПоМетаданнымРасширеннаяПодсказка" id="5"/>
+			</Button>
+			<Button name="ФормаДобавитьРегистрациюОтбор" id="116">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ДобавитьРегистрациюОтбор</CommandName>
+				<ExtendedTooltip name="ФормаДобавитьРегистрациюОтборРасширеннаяПодсказка" id="117"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="ПланОбмена" id="1">
+			<DataPath>УзелПланаОбмена</DataPath>
+			<Visible>false</Visible>
+			<ContextMenu name="ПланОбменаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПланОбменаРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<Table name="ОбъектыМетаданных" id="6">
+			<Representation>Tree</Representation>
+			<RowSelectionMode>Cell</RowSelectionMode>
+			<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ОбъектыМетаданных</DataPath>
+			<RowPictureDataPath>ОбъектыМетаданных.ИндексКартинки</RowPictureDataPath>
+			<RowsPicture>
+				<xr:Abs>RowsPicture.png</xr:Abs>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</RowsPicture>
+			<ContextMenu name="ОбъектыМетаданныхКонтекстноеМеню" id="7"/>
+			<AutoCommandBar name="ОбъектыМетаданныхКоманднаяПанель" id="8"/>
+			<ExtendedTooltip name="ОбъектыМетаданныхРасширеннаяПодсказка" id="9"/>
+			<SearchStringAddition name="ОбъектыМетаданныхСтрокаПоиска" id="10">
+				<AdditionSource>
+					<Item>ОбъектыМетаданных</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОбъектыМетаданныхСтрокаПоискаКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="ОбъектыМетаданныхСтрокаПоискаРасширеннаяПодсказка" id="12"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ОбъектыМетаданныхСостояниеПросмотра" id="13">
+				<AdditionSource>
+					<Item>ОбъектыМетаданных</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОбъектыМетаданныхСостояниеПросмотраКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="ОбъектыМетаданныхСостояниеПросмотраРасширеннаяПодсказка" id="15"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ОбъектыМетаданныхУправлениеПоиском" id="16">
+				<AdditionSource>
+					<Item>ОбъектыМетаданных</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ОбъектыМетаданныхУправлениеПоискомКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="ОбъектыМетаданныхУправлениеПоискомРасширеннаяПодсказка" id="18"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ОбъектыМетаданныхОбъектМетаданных" id="19">
+					<DataPath>ОбъектыМетаданных.ОбъектМетаданных</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОбъектыМетаданныхОбъектМетаданныхКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ОбъектыМетаданныхОбъектМетаданныхРасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<InputField name="ОбъектыМетаданныхИндексКартинки" id="22">
+					<DataPath>ОбъектыМетаданных.ИндексКартинки</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОбъектыМетаданныхИндексКартинкиКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ОбъектыМетаданныхИндексКартинкиРасширеннаяПодсказка" id="24"/>
+				</InputField>
+				<InputField name="ОбъектыМетаданныхПланОбмена" id="25">
+					<DataPath>ОбъектыМетаданных.ПланОбмена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОбъектыМетаданныхПланОбменаКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ОбъектыМетаданныхПланОбменаРасширеннаяПодсказка" id="27"/>
+				</InputField>
+				<InputField name="ОбъектыМетаданныхНаименование" id="28">
+					<DataPath>ОбъектыМетаданных.Наименование</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОбъектыМетаданныхНаименованиеКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ОбъектыМетаданныхНаименованиеРасширеннаяПодсказка" id="30"/>
+				</InputField>
+				<InputField name="ОбъектыМетаданныхМетаПолноеИмя" id="31">
+					<DataPath>ОбъектыМетаданных.МетаПолноеИмя</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ОбъектыМетаданныхМетаПолноеИмяКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ОбъектыМетаданныхМетаПолноеИмяРасширеннаяПодсказка" id="33"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="Группа1" id="56">
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="57"/>
+			<ChildItems>
+				<Table name="Конвейеры" id="86">
+					<Representation>List</Representation>
+					<RowSelectionMode>Cell</RowSelectionMode>
+					<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Конвейеры</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="КонвейерыКонтекстноеМеню" id="87"/>
+					<AutoCommandBar name="КонвейерыКоманднаяПанель" id="88"/>
+					<ExtendedTooltip name="КонвейерыРасширеннаяПодсказка" id="89"/>
+					<SearchStringAddition name="КонвейерыСтрокаПоиска" id="90">
+						<AdditionSource>
+							<Item>Конвейеры</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="КонвейерыСтрокаПоискаКонтекстноеМеню" id="91"/>
+						<ExtendedTooltip name="КонвейерыСтрокаПоискаРасширеннаяПодсказка" id="92"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="КонвейерыСостояниеПросмотра" id="93">
+						<AdditionSource>
+							<Item>Конвейеры</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="КонвейерыСостояниеПросмотраКонтекстноеМеню" id="94"/>
+						<ExtendedTooltip name="КонвейерыСостояниеПросмотраРасширеннаяПодсказка" id="95"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="КонвейерыУправлениеПоиском" id="96">
+						<AdditionSource>
+							<Item>Конвейеры</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="КонвейерыУправлениеПоискомКонтекстноеМеню" id="97"/>
+						<ExtendedTooltip name="КонвейерыУправлениеПоискомРасширеннаяПодсказка" id="98"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<CheckBoxField name="КонвейерыПометка" id="102">
+							<DataPath>Конвейеры.Пометка</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="КонвейерыПометкаКонтекстноеМеню" id="103"/>
+							<ExtendedTooltip name="КонвейерыПометкаРасширеннаяПодсказка" id="104"/>
+						</CheckBoxField>
+						<InputField name="КонвейерыКонвейер" id="99">
+							<DataPath>Конвейеры.Конвейер</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="КонвейерыКонвейерКонтекстноеМеню" id="100"/>
+							<ExtendedTooltip name="КонвейерыКонвейерРасширеннаяПодсказка" id="101"/>
+						</InputField>
+						<InputField name="КонвейерыПланОбмена" id="105">
+							<DataPath>Конвейеры.ПланОбмена</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="КонвейерыПланОбменаКонтекстноеМеню" id="106"/>
+							<ExtendedTooltip name="КонвейерыПланОбменаРасширеннаяПодсказка" id="107"/>
+						</InputField>
+						<InputField name="КонвейерыИдентификатор" id="108">
+							<DataPath>Конвейеры.Идентификатор</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="КонвейерыИдентификаторКонтекстноеМеню" id="109"/>
+							<ExtendedTooltip name="КонвейерыИдентификаторРасширеннаяПодсказка" id="110"/>
+						</InputField>
+						<InputField name="КонвейерыИдентификаторДерево" id="111">
+							<DataPath>Конвейеры.ИдентификаторДерево</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="КонвейерыИдентификаторДеревоКонтекстноеМеню" id="112"/>
+							<ExtendedTooltip name="КонвейерыИдентификаторДеревоРасширеннаяПодсказка" id="113"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<Table name="Обработчики" id="58">
+					<Representation>List</Representation>
+					<RowSelectionMode>Cell</RowSelectionMode>
+					<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Обработчики</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ОбработчикиКонтекстноеМеню" id="59"/>
+					<AutoCommandBar name="ОбработчикиКоманднаяПанель" id="60"/>
+					<ExtendedTooltip name="ОбработчикиРасширеннаяПодсказка" id="61"/>
+					<SearchStringAddition name="ОбработчикиСтрокаПоиска" id="62">
+						<AdditionSource>
+							<Item>Обработчики</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ОбработчикиСтрокаПоискаКонтекстноеМеню" id="63"/>
+						<ExtendedTooltip name="ОбработчикиСтрокаПоискаРасширеннаяПодсказка" id="64"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ОбработчикиСостояниеПросмотра" id="65">
+						<AdditionSource>
+							<Item>Обработчики</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ОбработчикиСостояниеПросмотраКонтекстноеМеню" id="66"/>
+						<ExtendedTooltip name="ОбработчикиСостояниеПросмотраРасширеннаяПодсказка" id="67"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ОбработчикиУправлениеПоиском" id="68">
+						<AdditionSource>
+							<Item>Обработчики</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ОбработчикиУправлениеПоискомКонтекстноеМеню" id="69"/>
+						<ExtendedTooltip name="ОбработчикиУправлениеПоискомРасширеннаяПодсказка" id="70"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<CheckBoxField name="ОбработчикиПометка" id="83">
+							<DataPath>Обработчики.Пометка</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="ОбработчикиПометкаКонтекстноеМеню" id="84"/>
+							<ExtendedTooltip name="ОбработчикиПометкаРасширеннаяПодсказка" id="85"/>
+						</CheckBoxField>
+						<InputField name="ОбработчикиКонвейер" id="71">
+							<DataPath>Обработчики.Конвейер</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="ОбработчикиКонвейерКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="ОбработчикиКонвейерРасширеннаяПодсказка" id="73"/>
+						</InputField>
+						<InputField name="ОбработчикиОбработчик" id="74">
+							<DataPath>Обработчики.Обработчик</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="ОбработчикиОбработчикКонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="ОбработчикиОбработчикРасширеннаяПодсказка" id="76"/>
+						</InputField>
+						<InputField name="ОбработчикиПланОбмена" id="77">
+							<DataPath>Обработчики.ПланОбмена</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="ОбработчикиПланОбменаКонтекстноеМеню" id="78"/>
+							<ExtendedTooltip name="ОбработчикиПланОбменаРасширеннаяПодсказка" id="79"/>
+						</InputField>
+						<InputField name="ОбработчикиИдентификаторКонвейеры" id="80">
+							<DataPath>Обработчики.ИдентификаторКонвейеры</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="ОбработчикиИдентификаторКонвейерыКонтекстноеМеню" id="81"/>
+							<ExtendedTooltip name="ОбработчикиИдентификаторКонвейерыРасширеннаяПодсказка" id="82"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="СписокСсылок" id="118">
+			<RowSelectionMode>Cell</RowSelectionMode>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>СписокСсылок</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СписокСсылокКонтекстноеМеню" id="119"/>
+			<AutoCommandBar name="СписокСсылокКоманднаяПанель" id="120">
+				<ChildItems>
+					<Button name="СписокСсылокВыполнитьРегистрациюПоСсылкам" id="143">
+						<Type>CommandBarButton</Type>
+						<DefaultButton>true</DefaultButton>
+						<CommandName>Form.Command.ВыполнитьРегистрациюПоСсылкам</CommandName>
+						<ButtonImportance>Main</ButtonImportance>
+						<ExtendedTooltip name="СписокСсылокВыполнитьРегистрациюПоСсылкамРасширеннаяПодсказка" id="144"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокСсылокРасширеннаяПодсказка" id="121"/>
+			<SearchStringAddition name="СписокСсылокСтрокаПоиска" id="122">
+				<AdditionSource>
+					<Item>СписокСсылок</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСсылокСтрокаПоискаКонтекстноеМеню" id="123"/>
+				<ExtendedTooltip name="СписокСсылокСтрокаПоискаРасширеннаяПодсказка" id="124"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСсылокСостояниеПросмотра" id="125">
+				<AdditionSource>
+					<Item>СписокСсылок</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСсылокСостояниеПросмотраКонтекстноеМеню" id="126"/>
+				<ExtendedTooltip name="СписокСсылокСостояниеПросмотраРасширеннаяПодсказка" id="127"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокСсылокУправлениеПоиском" id="128">
+				<AdditionSource>
+					<Item>СписокСсылок</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСсылокУправлениеПоискомКонтекстноеМеню" id="129"/>
+				<ExtendedTooltip name="СписокСсылокУправлениеПоискомРасширеннаяПодсказка" id="130"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="ChoiceProcessing">СписокСсылокОбработкаВыбора</Event>
+			</Events>
+			<ChildItems>
+				<CheckBoxField name="СписокСсылокНеВыгружалось" id="131">
+					<ContextMenu name="СписокСсылокНеВыгружалосьКонтекстноеМеню" id="132"/>
+					<ExtendedTooltip name="СписокСсылокНеВыгружалосьРасширеннаяПодсказка" id="133"/>
+				</CheckBoxField>
+				<LabelField name="СписокСсылокНомерСообщения" id="134">
+					<ContextMenu name="СписокСсылокНомерСообщенияКонтекстноеМеню" id="135"/>
+					<ExtendedTooltip name="СписокСсылокНомерСообщенияРасширеннаяПодсказка" id="136"/>
+				</LabelField>
+				<LabelField name="СписокСсылокСсылка" id="137">
+					<DataPath>СписокСсылок.Ссылка</DataPath>
+					<ContextMenu name="СписокСсылокСсылкаКонтекстноеМеню" id="138"/>
+					<ExtendedTooltip name="СписокСсылокСсылкаРасширеннаяПодсказка" id="139"/>
+				</LabelField>
+				<LabelField name="СписокСсылокСтандартнаяКартинка" id="140">
+					<ContextMenu name="СписокСсылокСтандартнаяКартинкаКонтекстноеМеню" id="141"/>
+					<ExtendedTooltip name="СписокСсылокСтандартнаяКартинкаРасширеннаяПодсказка" id="142"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.КОД_РучнаяРегистрация</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="УзелПланаОбмена" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Узел плана обмена</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:ExchangePlanRef</v8:TypeSet>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбъектыМетаданных" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объекты метаданных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ОбъектМетаданных" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объект метаданных</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИндексКартинки" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Индекс картинки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПланОбмена" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>План обмена</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Наименование" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="МетаПолноеИмя" id="5">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Идентификатор" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификатор</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Конвейеры" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конвейеры</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Конвейер" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конвейер</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Пометка" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пометка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПланОбмена" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>План обмена</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Идентификатор" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификатор</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИдентификаторДерево" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификатор дерево</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="КонвейерИмя" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конвейер</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Сценарий" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сценарий</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Обработчики" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработчики</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Конвейер" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конвейер</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Обработчик" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обработчик</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПланОбмена" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>План обмена</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИдентификаторКонвейеры" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификатор конвейеры</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Пометка" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пометка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ОбработчикИмя" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обработчик имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СписокСсылок" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список ссылок</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="НеВыгружалось" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не выгружалось</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НомерСообщения" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер сообщения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Ссылка" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</Title>
+					<Type/>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьПоМетаданным" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по метаданным</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по метаданным</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПоМетаданным</Action>
+		</Command>
+		<Command name="ДобавитьРегистрациюОтбор" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить регистрацию отбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить регистрацию отбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьРегистрациюОтбор</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ВыполнитьРегистрациюПоСсылкам" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить регистрацию по ссылкам</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить регистрацию по ссылкам</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьРегистрацию</Action>
+		</Command>
+	</Commands>
+</Form>

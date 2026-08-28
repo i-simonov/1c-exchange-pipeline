@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="CommonModule.КОД_ДиспетчерРегистрацииКОбмену" id="c31b10e0-6b27-4296-8872-a5d236e671c7" configVersion="ca1bd0b3ca754b0a6d8429eae6412d4a288d44c2"/>
+		<Metadata name="CommonModule.КОД_ДиспетчерРегистрацииКОбмену.Module" id="c31b10e0-6b27-4296-8872-a5d236e671c7.0" configVersion="7e40f93948111ac7a9ca5af220af3b72350ee232"/>
+		<Metadata name="CommonModule.КОД_ДиспетчерРегистрацииКОбменуПереопределяемый" id="25e31efc-92e0-4f87-8005-3fc515f2ddd6" configVersion="2486eb4a240730d3dca8e2817790ee28f073bcfd"/>
+		<Metadata name="CommonModule.КОД_ДиспетчерРегистрацииКОбменуПереопределяемый.Module" id="25e31efc-92e0-4f87-8005-3fc515f2ddd6.0" configVersion="6d9fd99dc13291004b33c7536c701356341497dc"/>
+		<Metadata name="CommonModule.КОД_ПодпискиНаСобытияПереопределяемый" id="eb53b38e-423d-4dfc-9610-ba14a78d9d31" configVersion="ecec7e8fc06f374603d2f47dd39e2746a87f9541"/>
+		<Metadata name="CommonModule.КОД_ПодпискиНаСобытияПереопределяемый.Module" id="eb53b38e-423d-4dfc-9610-ba14a78d9d31.0" configVersion="61bcc2a948e016f100df980f6e72b886ed8dbcf6"/>
+		<Metadata name="CommonPicture.КОД_КонвейерОбменаДанными" id="d6110ee8-6811-4e7c-baa5-aa12a33823da" configVersion="4fc0d2fda81b3f1de4eb7ea24b0d2ebbc6831c54"/>
+		<Metadata name="CommonPicture.КОД_КонвейерОбменаДанными.Picture" id="d6110ee8-6811-4e7c-baa5-aa12a33823da.0" configVersion="1e42378e82f93a8995dfba273304b8ef498175e3"/>
+		<Metadata name="Configuration.КонвейерОбменаДанными" id="441a70ec-3d92-4a95-a0a3-a77e3f8d18ef" configVersion="5f996dbf29f0c05af88ed771a07e7cd1a134d659"/>
+		<Metadata name="DataProcessor.КОД_КонвейерОбработчиковБазовый" id="48bfa8d8-3593-487e-a978-462739191a8b" configVersion="dd5d4b482ed8abc2c327369e282972eb955795ea"/>
+		<Metadata name="DataProcessor.КОД_КонвейерОбработчиковБазовый.ObjectModule" id="48bfa8d8-3593-487e-a978-462739191a8b.0" configVersion="11b2c73d32dcb48f2bf1c021010bb2508ce29328"/>
+		<Metadata name="DataProcessor.КОД_РеестрСценариев_ИмяПланаОбмена" id="746bc014-b463-40b2-88bd-bf3cd3b28cc6" configVersion="8cd09575f5638f9b4634af0b6cc8106995885372"/>
+		<Metadata name="DataProcessor.КОД_РеестрСценариев_ИмяПланаОбмена.ObjectModule" id="746bc014-b463-40b2-88bd-bf3cd3b28cc6.0" configVersion="4fa7020ae9179a1f3452fe84a267bba177ec70bc"/>
+		<Metadata name="DataProcessor.КОД_РучнаяРегистрация" id="384422a5-c327-436b-abdf-478a03927e65" configVersion="45dbb95a08b54d5f4f7793ca0f064f594702cc81"/>
+		<Metadata name="DataProcessor.КОД_РучнаяРегистрация.Form.Форма" id="f67665ac-c6b9-4b16-9148-edbaaf90d492" configVersion="cb379f6b45ec18a8898f82eda0e33dd067104ab0"/>
+		<Metadata name="DataProcessor.КОД_РучнаяРегистрация.Form.Форма.Form" id="f67665ac-c6b9-4b16-9148-edbaaf90d492.0" configVersion="00aa70e89e9b7d544e75f378692d9af2618621cc"/>
+		<Metadata name="Language.Русский" id="d823deb0-6a10-4ed1-8c1c-dcf4580aba98" configVersion="7d58918cfd6eae6195a0c5d22a073f608abeea85"/>
+		<Metadata name="Subsystem.КонвейерОбменаДанными" id="846de672-702b-447a-b87c-86db776c289e" configVersion="b5271604ed0aa3c93e49e463e0dc739e8ab50d52"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
