@@ -41,7 +41,7 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
+			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>false</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>КОД_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_24</ConfigurationExtensionCompatibilityMode>
@@ -51,15 +51,50 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
-			<Vendor/>
-			<Version/>
-			<Caption/>
-			<ShortCaption/>
-			<BriefInformation/>
-			<DetailedInformation/>
-			<Copyright/>
-			<VendorInformationAddress/>
-			<ConfigurationInformationAddress/>
+			<Vendor>i-simonov</Vendor>
+			<Version>1.0.1</Version>
+			<Caption>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конвейер обмена данными</v8:content>
+				</v8:item>
+			</Caption>
+			<ShortCaption>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>КОД</v8:content>
+				</v8:item>
+			</ShortCaption>
+			<BriefInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расширение для декларативной регистрации и подготовки объектов к обмену.</v8:content>
+				</v8:item>
+			</BriefInformation>
+			<DetailedInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ядро конвейера регистрации объектов к обмену с последовательностью обработчиков Filter → Router → Mapper → Output. Не содержит прикладных планов обмена и транспорта. Исходный код распространяется по лицензии MIT.</v8:content>
+				</v8:item>
+			</DetailedInformation>
+			<Copyright>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>© 2026 Simonov</v8:content>
+				</v8:item>
+			</Copyright>
+			<VendorInformationAddress>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>https://github.com/i-simonov</v8:content>
+				</v8:item>
+			</VendorInformationAddress>
+			<ConfigurationInformationAddress>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>https://github.com/i-simonov/1c-exchange-pipeline</v8:content>
+				</v8:item>
+			</ConfigurationInformationAddress>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
