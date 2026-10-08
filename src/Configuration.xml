@@ -104,8 +104,9 @@
 			<CommonModule>КОД_ДиспетчерРегистрацииКОбменуПереопределяемый</CommonModule>
 			<CommonModule>КОД_ПодпискиНаСобытияПереопределяемый</CommonModule>
 			<DataProcessor>КОД_РучнаяРегистрация</DataProcessor>
-			<DataProcessor>КОД_КонвейерОбработчиковБазовый</DataProcessor>
-			<DataProcessor>КОД_РеестрСценариев_ИмяПланаОбмена</DataProcessor>
+			<DataProcessor>КОД_КонвейерОбработчиковРегистрацияБазовый</DataProcessor>
+			<DataProcessor>КОД_РеестрСценариевРегистрация_ИмяПланаОбмена</DataProcessor>
+			<DataProcessor>КОД_Обработчик_ИсключениеОтправителя</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
