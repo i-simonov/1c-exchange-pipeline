@@ -23,5 +23,96 @@
 		<Metadata name="DataProcessor.КОД_РучнаяРегистрация.Form.ВыборОбъектовОтбором.Form" id="b77a7512-54c0-43ff-b311-ca17edcf2f9b.0" configVersion="f2b07efe99e8f5361d14aa24b0d4908f9f79b600"/>
 		<Metadata name="DataProcessor.КОД_РучнаяРегистрация.Form.Форма" id="f67665ac-c6b9-4b16-9148-edbaaf90d492" configVersion="cb379f6b45ec18a8898f82eda0e33dd067104ab0"/>
 		<Metadata name="DataProcessor.КОД_РучнаяРегистрация.Form.Форма.Form" id="f67665ac-c6b9-4b16-9148-edbaaf90d492.0" configVersion="97926a0b07bab7a1ced3141200a0cfc39b5f8d69"/>
+		<Metadata name="CommonModule.КОД_ДиспетчерЗагрузкиСообщений" id="819a7641-9878-4e87-b79c-32c114c6e287" configVersion="252e27b8b8977a27a32150a9dc176a8aa59efe37"/>
+		<Metadata name="CommonModule.КОД_ДиспетчерЗагрузкиСообщений.Module" id="819a7641-9878-4e87-b79c-32c114c6e287.0" configVersion="9150185b958d7259490a07e4be92ff74ea3af9b4"/>
+		<Metadata name="CommonModule.КОД_ДиспетчерЗагрузкиСообщенийПереопределяемый" id="024c7744-575c-4ad0-971f-dd4b73135770" configVersion="1e7da7a716169abde2c90f041e1e4dabdabf9dbc"/>
+		<Metadata name="CommonModule.КОД_ДиспетчерЗагрузкиСообщенийПереопределяемый.Module" id="024c7744-575c-4ad0-971f-dd4b73135770.0" configVersion="ce7c8bda92085b85a12030e5441477d9bbbd2f63"/>
+		<Metadata name="CommonModule.КОД_ОтложенныйПроцессинг" id="4955a59f-a99a-4be5-839b-0642151520aa" configVersion="94f6a07ad3d5fd887b83761386613d475ccc8a44"/>
+		<Metadata name="CommonModule.КОД_ОтложенныйПроцессинг.Module" id="4955a59f-a99a-4be5-839b-0642151520aa.0" configVersion="526e78480457596b623ecd6e2e6c31673196ebea"/>
+		<Metadata name="CommonModule.КОД_ПовторнаяЗагрузкаСообщений" id="2f57f664-7223-4d7f-ba3f-cc19eb21b939" configVersion="50ae910ec9786f60fecb1b5156b6d851f1ab4368"/>
+		<Metadata name="CommonModule.КОД_ПовторнаяЗагрузкаСообщений.Module" id="2f57f664-7223-4d7f-ba3f-cc19eb21b939.0" configVersion="acd1e3f066bb706afaaa5fda8bb530bdc2f22017"/>
+		<Metadata name="Constant.КОД_ПорцияЗагрузкиСообщений" id="4107cd78-bf0f-4985-8548-0e90d75d66ad" configVersion="46098ff99feea5f1e52b9e21fc89def07a00fcd8"/>
+		<Metadata name="DataProcessor.КОД_КонвейерОбработчиковЗагрузкаБазовый" id="4a296d9e-8292-4074-bb20-ede36e5479c1" configVersion="be80d31b95cbb1c3c20b7bf80b55e35887a3bcb8"/>
+		<Metadata name="DataProcessor.КОД_КонвейерОбработчиковЗагрузкаБазовый.ObjectModule" id="4a296d9e-8292-4074-bb20-ede36e5479c1.0" configVersion="d87a551e3a137ff91e94c320969fc7be5e72a172"/>
+		<Metadata name="DefinedType.КОД_ОбъектыОтложеннойОбработки" id="7ecca7ac-578e-4632-a8a7-89ec4210e1e0" configVersion="a1dc13cc1abcc4730c8a620ccbc3237c746bc530"/>
+		<Metadata name="Enum.КОД_ВидыОбработкиДокументов" id="3b68299d-cb95-4291-8fdb-db08321c54d9" configVersion="e5fbc04b77cdae71b41af27aff14105b829f9bd3">
+			<Metadata name="Enum.КОД_ВидыОбработкиДокументов.EnumValue.Проведение" id="0d7eb2b9-7a02-4bed-8e1d-c34e15d058b4"/>
+			<Metadata name="Enum.КОД_ВидыОбработкиДокументов.EnumValue.ПометкаНаУдаление" id="ba82c3f5-74ca-48dd-92fe-34af0850a8c9"/>
+			<Metadata name="Enum.КОД_ВидыОбработкиДокументов.EnumValue.Распроведение" id="c0152775-0c89-434d-a524-e56a00ade7a5"/>
+			<Metadata name="Enum.КОД_ВидыОбработкиДокументов.EnumValue.Запись" id="ec3d41ee-82db-4045-aea5-213eced3c2b7"/>
+		</Metadata>
+		<Metadata name="Enum.КОД_СостоянияОтложеннойОбработки" id="a1033a63-90b6-4379-a7da-ef07b85ff96c" configVersion="624e51e2527a0eb7645030d7f4e3f968e941636a">
+			<Metadata name="Enum.КОД_СостоянияОтложеннойОбработки.EnumValue.Ошибка" id="75b26064-0e5a-43af-8677-af119fc3c032"/>
+			<Metadata name="Enum.КОД_СостоянияОтложеннойОбработки.EnumValue.КОбработке" id="e980e98b-a164-4cdd-a259-47b58e7245cf"/>
+		</Metadata>
+		<Metadata name="EventSubscription.КОД_ОтложеннаяОбработкаПриЗаписиСправочники" id="9e2a27cf-9a17-46c1-b374-e537757175fe" configVersion="fb7094c2a225ac313dc4f0b440b19f44d2290f91"/>
+		<Metadata name="EventSubscription.КОД_ОтложеннаяОбработкаПередУдалениемСправочники" id="dccdd671-d58e-456a-8cc1-e5bee7515387" configVersion="3e023e765e20c8d1f3693294260c801053e1e7d2"/>
+		<Metadata name="EventSubscription.КОД_ОтложеннаяОбработкаУдаленияПроведения" id="ef8fa30d-79a2-4235-ad8e-44be3278c5a0" configVersion="75ef6bfcbb2dba1aafcc628ed76643019b8b31fe"/>
+		<Metadata name="EventSubscription.КОД_ОтложенноеПроведениеОбработкаПроведения" id="4e99b48b-153e-4f88-b347-e8d354eefc3b" configVersion="edad5e705dde1848fa0fbf5355160aa5ff9cac7f"/>
+		<Metadata name="EventSubscription.КОД_ОтложенноеПроведениеПередУдалением" id="3758337b-cf6e-4a61-a154-a60863ef8dc6" configVersion="a9557d41b75055d7c96882664e8bc0fbf66b44aa"/>
+		<Metadata name="EventSubscription.КОД_ОтложенноеПроведениеПриЗаписи" id="edeb1076-ab89-4961-9dfb-4f99c84ead34" configVersion="b07a53d80990d1d17b533818f6c9752d4c080369"/>
+		<Metadata name="InformationRegister.КОД_ВходящаяОчередьСообщений" id="0908a678-ebbb-44eb-8f1d-9ea7062f7f3a" configVersion="90c348b028f269075fa118ed5400ac82fbedcb8f">
+			<Metadata name="InformationRegister.КОД_ВходящаяОчередьСообщений.Resource.Отправитель" id="02e325a2-6f97-41ee-becc-83c2d9dbde44"/>
+			<Metadata name="InformationRegister.КОД_ВходящаяОчередьСообщений.Attribute.ДатаВремя" id="0cffecca-e383-40e4-a545-1649aa8aee65"/>
+			<Metadata name="InformationRegister.КОД_ВходящаяОчередьСообщений.Dimension.Идентификатор" id="2d18b138-9a78-4a61-a2d3-fc582d6a8959"/>
+			<Metadata name="InformationRegister.КОД_ВходящаяОчередьСообщений.Command.ОткрытьФормуСписка" id="5edb3405-4c9b-4aa4-bec7-1099539dde2d"/>
+			<Metadata name="InformationRegister.КОД_ВходящаяОчередьСообщений.Resource.ТелоСообщения" id="6ad16cf2-a410-497f-a7de-1d26b5fe3aca"/>
+			<Metadata name="InformationRegister.КОД_ВходящаяОчередьСообщений.Dimension.НомерСообщения" id="a3350899-55cf-4ce6-bd4b-05c7ed8b2528"/>
+			<Metadata name="InformationRegister.КОД_ВходящаяОчередьСообщений.Resource.ТипСообщения" id="b0e4eff5-b622-4f34-ab20-a5947f417eeb"/>
+			<Metadata name="InformationRegister.КОД_ВходящаяОчередьСообщений.Resource.Заголовки" id="f73703b0-5b7e-4a7a-a537-84126a5cfec8"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КОД_ВходящаяОчередьСообщений.Command.ОткрытьФормуСписка.CommandModule" id="5edb3405-4c9b-4aa4-bec7-1099539dde2d.2" configVersion="2c8c90990ac268aa73a0aa4daff44f5141a480e5"/>
+		<Metadata name="InformationRegister.КОД_ВходящаяОчередьСообщений.Form.ФормаСписка" id="6b81ecf6-a4e8-48a2-ab32-9aec25d71391" configVersion="6f48e7189c4ed13ee4635c1cc94ae6f8d42227a8"/>
+		<Metadata name="InformationRegister.КОД_ВходящаяОчередьСообщений.Form.ФормаСписка.Form" id="6b81ecf6-a4e8-48a2-ab32-9aec25d71391.0" configVersion="00efaecedf4bbb6f9ea85f0ae897b5612fa78f07"/>
+		<Metadata name="InformationRegister.КОД_ОтложенныйПроцессинг" id="3a58445d-b375-43bb-bd3e-dadd6c3520ef" configVersion="aa0eb341309c4bec7b373a9130317dec8e14890f">
+			<Metadata name="InformationRegister.КОД_ОтложенныйПроцессинг.Dimension.Ссылка" id="0ba2f137-3c7b-4bb2-949f-b891c9ccc1e7"/>
+			<Metadata name="InformationRegister.КОД_ОтложенныйПроцессинг.Resource.ТекстОшибки" id="2f119c57-af89-4b5d-963a-2f27b60bf9cc"/>
+			<Metadata name="InformationRegister.КОД_ОтложенныйПроцессинг.Dimension.ВидОбработки" id="8982e467-f1ab-4867-af82-b0dd3e5545db"/>
+			<Metadata name="InformationRegister.КОД_ОтложенныйПроцессинг.Command.ОткрытьФормуСписка" id="b7bfb64e-35fe-468d-9915-8074ccc82a53"/>
+			<Metadata name="InformationRegister.КОД_ОтложенныйПроцессинг.Attribute.НомерПопытки" id="bf2033c7-4285-45b3-813d-e17421630dc8"/>
+			<Metadata name="InformationRegister.КОД_ОтложенныйПроцессинг.Attribute.МоментПостановки" id="05541e31-5bea-4e6d-a72e-65d3ed2587b9"/>
+			<Metadata name="InformationRegister.КОД_ОтложенныйПроцессинг.Resource.Состояние" id="d38077de-fcbc-4858-964a-5170594450d2"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КОД_ОтложенныйПроцессинг.Command.ОткрытьФормуСписка.CommandModule" id="b7bfb64e-35fe-468d-9915-8074ccc82a53.2" configVersion="4ae1a3db1669e31de5e1986f1fde856521a180a3"/>
+		<Metadata name="InformationRegister.КОД_ОтложенныйПроцессинг.Form.ФормаСписка" id="e2162b0c-94eb-408e-be87-1359e648cbca" configVersion="364c4d3078bc9024ff0d7af885a4d810dabddbe3"/>
+		<Metadata name="InformationRegister.КОД_ОтложенныйПроцессинг.Form.ФормаСписка.Form" id="e2162b0c-94eb-408e-be87-1359e648cbca.0" configVersion="f16fc77302d42eca5132f22a13d1479f3a6861ba"/>
+		<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений" id="504bbc59-01dc-42d0-8cd7-e04428699d57" configVersion="6d88cb2bc77424997dff37c9fd36161797f1860b">
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Dimension.content_type" id="1a2c87f4-2c08-47f0-97dd-daf37137dc6e"/>
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Dimension.Идентификатор" id="291d1003-0466-41c4-9dca-f11d3afebe09"/>
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Resource.НаКонтроле" id="463ff852-572e-4a8d-95b6-faf933f7d96e"/>
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Resource.Сообщение" id="65747893-16a0-4594-aad5-7de9baccaacf"/>
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Resource.Ошибка" id="7ebe6a3d-9193-454e-9c7c-ad3af352a8c6"/>
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Resource.Отправитель" id="913db3c4-869a-489d-9b58-dfc129a78d38"/>
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Dimension.Сценарий" id="9c94521a-6d8e-4217-ad4b-33c4a7a67b8c"/>
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Command.ОткрытьФормуСписка" id="a7a016ad-c8c4-4e90-b6e2-56cb99d44a29"/>
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Resource.Заголовки" id="bb16fd58-44b2-4d8a-b49e-be8fe42b938e"/>
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Dimension.УзелОбмена" id="bfa7e79d-fccb-46d6-85a6-c18713d67700"/>
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Resource.КоличествоПопыток" id="e256bd28-7dee-46a3-b7df-2e53ded5f50b"/>
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Resource.Ответственный" id="fbe585ac-8da2-4cbc-b6b1-786e13afc58c"/>
+			<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Dimension.НомерСообщения" id="fdb0414a-6793-4358-8851-61a458ca4cfc"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Command.ОткрытьФормуСписка.CommandModule" id="a7a016ad-c8c4-4e90-b6e2-56cb99d44a29.2" configVersion="2d3b55f6c692feffda0858a0edf5611d93cdd09d"/>
+		<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Form.ФормаСписка" id="9762d895-7e89-45b9-bedf-e1c58fa585a8" configVersion="fcc0c5d3fcbfe7b60bbd6a9ae9f2562bc29f5a21"/>
+		<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.Form.ФормаСписка.Form" id="9762d895-7e89-45b9-bedf-e1c58fa585a8.0" configVersion="f56d83057ebfdb521df80c990843371bb1b94cd6"/>
+		<Metadata name="InformationRegister.КОД_ОшибкиЗагрузкиСообщений.ManagerModule" id="504bbc59-01dc-42d0-8cd7-e04428699d57.2" configVersion="066f2b7d7b4f0bc88026626ac1a64efc4e77f960"/>
+		<Metadata name="ScheduledJob.КОД_ЗагрузкаСообщений" id="6f52c4d2-05aa-4a59-955d-c77acf24f65a" configVersion="a696a3e1bd06e70190e6da94ff46d24df6875501"/>
+		<Metadata name="ScheduledJob.КОД_ОтложенныйПроцессинг" id="9e0a507c-5bbc-4491-866c-738d1900330f" configVersion="012a06f92869c2b614b23a32487158148808a3d6"/>
+		<Metadata name="ScheduledJob.КОД_ПовторнаяЗагрузкаСообщений" id="9bbc3f8a-c1bf-49d3-a06b-a0482aa6ceec" configVersion="07786f64b88bdc7bc267f2c2c374fec5bbeb99bc"/>
+		<Metadata name="DataProcessor.КОД_Обработчик_ОтправительСообщенияВОчередь" id="bedf5b2d-371a-4f94-a90c-bf4616321977" configVersion="23f132f1706261fe49a38aece5f56fa28849d1f0"/>
+		<Metadata name="DataProcessor.КОД_Обработчик_ОтправительСообщенияВОчередь.ObjectModule" id="bedf5b2d-371a-4f94-a90c-bf4616321977.0" configVersion="665ebea917ad0a80b754ed4a4f2d0665712acf69"/>
+		<Metadata name="InformationRegister.КОД_ИсходящаяОчередьСообщений" id="234150a5-98b9-49fa-9db5-8129081804c4" configVersion="8c236b63c524eaff32ffbef2337dc981f5a3a807">
+			<Metadata name="InformationRegister.КОД_ИсходящаяОчередьСообщений.Resource.ДатаВремя" id="0c53ffe0-b3fd-4978-a1f8-6e96f202d0f6"/>
+			<Metadata name="InformationRegister.КОД_ИсходящаяОчередьСообщений.Dimension.Идентификатор" id="1e61a646-66e2-411e-ac40-137ad145c8fb"/>
+			<Metadata name="InformationRegister.КОД_ИсходящаяОчередьСообщений.Resource.Заголовки" id="545f30cb-0511-49b2-994a-5d69e1b077a1"/>
+			<Metadata name="InformationRegister.КОД_ИсходящаяОчередьСообщений.Resource.Получатель" id="5b812708-be26-492c-91a0-f2597c4a9a38"/>
+			<Metadata name="InformationRegister.КОД_ИсходящаяОчередьСообщений.Resource.ТипСообщения" id="72f1989c-2256-4487-925d-327d1f3571b6"/>
+			<Metadata name="InformationRegister.КОД_ИсходящаяОчередьСообщений.Resource.ТипОперации" id="796c490b-9cdf-406b-bbaa-976869116438"/>
+			<Metadata name="InformationRegister.КОД_ИсходящаяОчередьСообщений.Resource.ТелоСообщения" id="a3866b66-4d52-4dab-98cf-19b780fc30b4"/>
+			<Metadata name="InformationRegister.КОД_ИсходящаяОчередьСообщений.Resource.МоментВремени" id="ac6456a3-aae7-496e-a479-5bb1de3b875f"/>
+			<Metadata name="InformationRegister.КОД_ИсходящаяОчередьСообщений.Resource.Отправитель" id="d030761f-2bf5-475a-9be1-6b531e1110e1"/>
+			<Metadata name="InformationRegister.КОД_ИсходящаяОчередьСообщений.Command.ОткрытьФормуСписка" id="e25feeec-68cb-4454-a536-7ed81834c439"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КОД_ИсходящаяОчередьСообщений.Command.ОткрытьФормуСписка.CommandModule" id="e25feeec-68cb-4454-a536-7ed81834c439.2" configVersion="de0cfa3fb35767336b33770f8724770643c52979"/>
+		<Metadata name="Subsystem.КонвейерОбменаДанными.CommandInterface" id="846de672-702b-447a-b87c-86db776c289e.1"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

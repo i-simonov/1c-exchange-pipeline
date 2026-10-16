@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ЗагрузитьСообщение" id="4">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗагрузитьСообщение</CommandName>
+				<ExtendedTooltip name="ЗагрузитьСообщениеРасширеннаяПодсказка" id="5"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<CheckBoxField name="ВызыватьИсключение" id="40">
+			<DataPath>ВызыватьИсключение</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вызывать исключение</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ВызыватьИсключениеКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="ВызыватьИсключениеРасширеннаяПодсказка" id="42"/>
+		</CheckBoxField>
+		<Table name="Список" id="1">
+			<Representation>List</Representation>
+			<DefaultItem>true</DefaultItem>
+			<DataPath>Список</DataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="31">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="32"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="33"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="34">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="35"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="36"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="37">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="38"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="39"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="НомерСообщения" id="10">
+					<DataPath>Список.НомерСообщения</DataPath>
+					<ContextMenu name="НомерСообщенияКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="НомерСообщенияРасширеннаяПодсказка" id="12"/>
+				</LabelField>
+				<LabelField name="Идентификатор" id="13">
+					<DataPath>Список.Идентификатор</DataPath>
+					<ContextMenu name="ИдентификаторКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="15"/>
+				</LabelField>
+				<LabelField name="Отправитель" id="16">
+					<DataPath>Список.Отправитель</DataPath>
+					<ContextMenu name="ОтправительКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ОтправительРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+				<LabelField name="ТипСообщения" id="19">
+					<DataPath>Список.ТипСообщения</DataPath>
+					<ContextMenu name="ТипСообщенияКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ТипСообщенияРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="ДатаВремя" id="22">
+					<DataPath>Список.ДатаВремя</DataPath>
+					<ContextMenu name="ДатаВремяКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ДатаВремяРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="Заголовки" id="25">
+					<DataPath>Список.Заголовки</DataPath>
+					<ContextMenu name="ЗаголовкиКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ЗаголовкиРасширеннаяПодсказка" id="27"/>
+				</LabelField>
+				<LabelField name="ТелоСообщения" id="28">
+					<DataPath>Список.ТелоСообщения</DataPath>
+					<ContextMenu name="ТелоСообщенияКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ТелоСообщенияРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>Список.Идентификатор</Field>
+				<Field>Список.НомерСообщения</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.КОД_ВходящаяОчередьСообщений</MainTable>
+				<ListSettings/>
+			</Settings>
+		</Attribute>
+		<Attribute name="ВызыватьИсключение" id="2">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗагрузитьСообщение" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить сообщение</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ЗагрузитьСообщение</Action>
+		</Command>
+	</Commands>
+</Form>
