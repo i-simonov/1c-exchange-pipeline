@@ -34,7 +34,6 @@
 		<Metadata name="Constant.КОД_ПорцияЗагрузкиСообщений" id="4107cd78-bf0f-4985-8548-0e90d75d66ad" configVersion="46098ff99feea5f1e52b9e21fc89def07a00fcd8"/>
 		<Metadata name="DataProcessor.КОД_КонвейерОбработчиковЗагрузкаБазовый" id="4a296d9e-8292-4074-bb20-ede36e5479c1" configVersion="be80d31b95cbb1c3c20b7bf80b55e35887a3bcb8"/>
 		<Metadata name="DataProcessor.КОД_КонвейерОбработчиковЗагрузкаБазовый.ObjectModule" id="4a296d9e-8292-4074-bb20-ede36e5479c1.0" configVersion="d87a551e3a137ff91e94c320969fc7be5e72a172"/>
-		<Metadata name="DefinedType.КОД_ОбъектыОтложеннойОбработки" id="7ecca7ac-578e-4632-a8a7-89ec4210e1e0" configVersion="a1dc13cc1abcc4730c8a620ccbc3237c746bc530"/>
 		<Metadata name="Enum.КОД_ВидыОбработкиДокументов" id="3b68299d-cb95-4291-8fdb-db08321c54d9" configVersion="e5fbc04b77cdae71b41af27aff14105b829f9bd3">
 			<Metadata name="Enum.КОД_ВидыОбработкиДокументов.EnumValue.Проведение" id="0d7eb2b9-7a02-4bed-8e1d-c34e15d058b4"/>
 			<Metadata name="Enum.КОД_ВидыОбработкиДокументов.EnumValue.ПометкаНаУдаление" id="ba82c3f5-74ca-48dd-92fe-34af0850a8c9"/>

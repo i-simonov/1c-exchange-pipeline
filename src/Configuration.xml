@@ -118,7 +118,6 @@
 			<Constant>КОД_ПорцияЗагрузкиСообщений</Constant>
 			<Enum>КОД_ВидыОбработкиДокументов</Enum>
 			<Enum>КОД_СостоянияОтложеннойОбработки</Enum>
-			<DefinedType>КОД_ОбъектыОтложеннойОбработки</DefinedType>
 			<ScheduledJob>КОД_ЗагрузкаСообщений</ScheduledJob>
 			<ScheduledJob>КОД_ПовторнаяЗагрузкаСообщений</ScheduledJob>
 			<ScheduledJob>КОД_ОтложенныйПроцессинг</ScheduledJob>
