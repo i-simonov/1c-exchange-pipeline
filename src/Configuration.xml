@@ -68,13 +68,13 @@
 			<BriefInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Расширение для декларативной регистрации и подготовки объектов к обмену.</v8:content>
+					<v8:content>Регистрация, загрузка сообщений и отложенная обработка объектов обмена.</v8:content>
 				</v8:item>
 			</BriefInformation>
 			<DetailedInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Ядро конвейера регистрации объектов к обмену с последовательностью обработчиков Filter → Router → Mapper → Output. Не содержит прикладных планов обмена и транспорта. Исходный код распространяется по лицензии MIT.</v8:content>
+					<v8:content>Ядро конвейера регистрации объектов к обмену с последовательностью обработчиков Filter → Router → Mapper → Output. Содержит очереди загрузки и отложенной обработки. Не содержит прикладных планов обмена и транспорта. Исходный код распространяется по лицензии MIT.</v8:content>
 				</v8:item>
 			</DetailedInformation>
 			<Copyright>
@@ -107,6 +107,29 @@
 			<DataProcessor>КОД_КонвейерОбработчиковРегистрацияБазовый</DataProcessor>
 			<DataProcessor>КОД_РеестрСценариевРегистрация_ИмяПланаОбмена</DataProcessor>
 			<DataProcessor>КОД_Обработчик_ИсключениеОтправителя</DataProcessor>
+			<CommonModule>КОД_ДиспетчерЗагрузкиСообщений</CommonModule>
+			<CommonModule>КОД_ДиспетчерЗагрузкиСообщенийПереопределяемый</CommonModule>
+			<CommonModule>КОД_ПовторнаяЗагрузкаСообщений</CommonModule>
+			<CommonModule>КОД_ОтложенныйПроцессинг</CommonModule>
+			<DataProcessor>КОД_КонвейерОбработчиковЗагрузкаБазовый</DataProcessor>
+			<InformationRegister>КОД_ВходящаяОчередьСообщений</InformationRegister>
+			<InformationRegister>КОД_ОшибкиЗагрузкиСообщений</InformationRegister>
+			<InformationRegister>КОД_ОтложенныйПроцессинг</InformationRegister>
+			<Constant>КОД_ПорцияЗагрузкиСообщений</Constant>
+			<Enum>КОД_ВидыОбработкиДокументов</Enum>
+			<Enum>КОД_СостоянияОтложеннойОбработки</Enum>
+			<DefinedType>КОД_ОбъектыОтложеннойОбработки</DefinedType>
+			<ScheduledJob>КОД_ЗагрузкаСообщений</ScheduledJob>
+			<ScheduledJob>КОД_ПовторнаяЗагрузкаСообщений</ScheduledJob>
+			<ScheduledJob>КОД_ОтложенныйПроцессинг</ScheduledJob>
+			<EventSubscription>КОД_ОтложеннаяОбработкаПередУдалениемСправочники</EventSubscription>
+			<EventSubscription>КОД_ОтложеннаяОбработкаПриЗаписиСправочники</EventSubscription>
+			<EventSubscription>КОД_ОтложеннаяОбработкаУдаленияПроведения</EventSubscription>
+			<EventSubscription>КОД_ОтложенноеПроведениеОбработкаПроведения</EventSubscription>
+			<EventSubscription>КОД_ОтложенноеПроведениеПередУдалением</EventSubscription>
+			<EventSubscription>КОД_ОтложенноеПроведениеПриЗаписи</EventSubscription>
+			<InformationRegister>КОД_ИсходящаяОчередьСообщений</InformationRegister>
+			<DataProcessor>КОД_Обработчик_ОтправительСообщенияВОчередь</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
