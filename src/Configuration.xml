@@ -103,32 +103,32 @@
 			<CommonModule>КОД_ДиспетчерРегистрацииКОбмену</CommonModule>
 			<CommonModule>КОД_ДиспетчерРегистрацииКОбменуПереопределяемый</CommonModule>
 			<CommonModule>КОД_ПодпискиНаСобытияПереопределяемый</CommonModule>
-			<DataProcessor>КОД_РучнаяРегистрация</DataProcessor>
-			<DataProcessor>КОД_КонвейерОбработчиковРегистрацияБазовый</DataProcessor>
-			<DataProcessor>КОД_РеестрСценариевРегистрация_ИмяПланаОбмена</DataProcessor>
-			<DataProcessor>КОД_Обработчик_ИсключениеОтправителя</DataProcessor>
 			<CommonModule>КОД_ДиспетчерЗагрузкиСообщений</CommonModule>
 			<CommonModule>КОД_ДиспетчерЗагрузкиСообщенийПереопределяемый</CommonModule>
 			<CommonModule>КОД_ПовторнаяЗагрузкаСообщений</CommonModule>
 			<CommonModule>КОД_ОтложенныйПроцессинг</CommonModule>
-			<DataProcessor>КОД_КонвейерОбработчиковЗагрузкаБазовый</DataProcessor>
-			<InformationRegister>КОД_ВходящаяОчередьСообщений</InformationRegister>
-			<InformationRegister>КОД_ОшибкиЗагрузкиСообщений</InformationRegister>
-			<InformationRegister>КОД_ОтложенныйПроцессинг</InformationRegister>
-			<Constant>КОД_ПорцияЗагрузкиСообщений</Constant>
-			<Enum>КОД_ВидыОбработкиДокументов</Enum>
-			<Enum>КОД_СостоянияОтложеннойОбработки</Enum>
-			<ScheduledJob>КОД_ЗагрузкаСообщений</ScheduledJob>
-			<ScheduledJob>КОД_ПовторнаяЗагрузкаСообщений</ScheduledJob>
-			<ScheduledJob>КОД_ОтложенныйПроцессинг</ScheduledJob>
 			<EventSubscription>КОД_ОтложеннаяОбработкаПередУдалениемСправочники</EventSubscription>
 			<EventSubscription>КОД_ОтложеннаяОбработкаПриЗаписиСправочники</EventSubscription>
 			<EventSubscription>КОД_ОтложеннаяОбработкаУдаленияПроведения</EventSubscription>
 			<EventSubscription>КОД_ОтложенноеПроведениеОбработкаПроведения</EventSubscription>
 			<EventSubscription>КОД_ОтложенноеПроведениеПередУдалением</EventSubscription>
 			<EventSubscription>КОД_ОтложенноеПроведениеПриЗаписи</EventSubscription>
-			<InformationRegister>КОД_ИсходящаяОчередьСообщений</InformationRegister>
+			<ScheduledJob>КОД_ЗагрузкаСообщений</ScheduledJob>
+			<ScheduledJob>КОД_ПовторнаяЗагрузкаСообщений</ScheduledJob>
+			<ScheduledJob>КОД_ОтложенныйПроцессинг</ScheduledJob>
+			<Constant>КОД_ПорцияЗагрузкиСообщений</Constant>
+			<Enum>КОД_ВидыОбработкиДокументов</Enum>
+			<Enum>КОД_СостоянияОтложеннойОбработки</Enum>
+			<DataProcessor>КОД_РучнаяРегистрация</DataProcessor>
+			<DataProcessor>КОД_КонвейерОбработчиковРегистрацияБазовый</DataProcessor>
+			<DataProcessor>КОД_РеестрСценариевРегистрация_ИмяПланаОбмена</DataProcessor>
+			<DataProcessor>КОД_Обработчик_ИсключениеОтправителя</DataProcessor>
+			<DataProcessor>КОД_КонвейерОбработчиковЗагрузкаБазовый</DataProcessor>
 			<DataProcessor>КОД_Обработчик_ОтправительСообщенияВОчередь</DataProcessor>
+			<InformationRegister>КОД_ВходящаяОчередьСообщений</InformationRegister>
+			<InformationRegister>КОД_ОшибкиЗагрузкиСообщений</InformationRegister>
+			<InformationRegister>КОД_ОтложенныйПроцессинг</InformationRegister>
+			<InformationRegister>КОД_ИсходящаяОчередьСообщений</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
