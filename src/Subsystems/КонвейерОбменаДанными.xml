@@ -38,7 +38,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.КОД_ПорцияЗагрузкиСообщений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.КОД_ВидыОбработкиДокументов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.КОД_СостоянияОтложеннойОбработки</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.КОД_ОбъектыОтложеннойОбработки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.КОД_ЗагрузкаСообщений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.КОД_ПовторнаяЗагрузкаСообщений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.КОД_ОтложенныйПроцессинг</xr:Item>
